@@ -28,7 +28,7 @@ public class TrackerTest {
         TimeEntry entry = new TimeEntry();
         entry.setDescription("Entry Test");
         entry.setRate(80.0f);
-        entry.setTime(3);
+        entry.setTime(30);
         tracker.add(entry);
         assertTrue(tracker.size() > 0);
     }
